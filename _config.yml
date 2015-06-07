@@ -9,7 +9,7 @@ title:               Eren Yıldırım
 tagline:             Elektrik Mühendisi
 url:                 http://erenyildirim.com
 paginate:            1
-baseurl:             ""
+baseurl:             "http://erenyildirim.com"
 
 # Assets
 #
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Eren Yıldırım
+  url:               https://twitter.com/ernyldrm
+  email:             mail@erenyildirim.com
 
 # Custom vars
 version:             1.0.0
