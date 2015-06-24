@@ -1,0 +1,43 @@
+<html>
+<h3>Emailleri çıkarmak istediğiniz text'i buraya yapıştırın:</h3>
+<form target="#" onsubmit="return parseEmails()">
+<textarea id="stringContainsEmail">
+</textarea><br/>
+<button type="submit">Emailleri Dök</button>
+</form>
+<h3>Sonuç:</h3>
+<div id="emailResult" style="border: 1px solid; width: 500px">
+</div>
+<script>
+function getEmailsFromString(input) {
+  var ret = [];
+  var email = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+
+  var match;
+  while (match = email.exec(input)){
+  	console.log(match);
+    ret.push({'email':match[0]});
+    input = input.replace(match[0],"")
+  }
+
+  return ret;
+}
+
+function parseEmails(){
+	console.log("Çalıştı");
+	var input = document.getElementById("stringContainsEmail");
+	var text = input.value;
+	console.log(text);
+	var emailResult = document.getElementById("emailResult");
+	var emails = getEmailsFromString(text);
+	var i;
+	var result = "";
+	for(i = 0; i < emails.length; i++){
+		result += emails[i]['email'] + "; ";
+	}
+	console.log(result);
+	emailResult.innerHTML = result;
+	return false;
+}
+</script>
+</html>
