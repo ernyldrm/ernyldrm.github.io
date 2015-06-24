@@ -1,13 +1,23 @@
 <html>
+<head>
+	
+<title>Emailleri dök</title>
+</head>
+<body>
 <h3>Emailleri çıkarmak istediğiniz text'i buraya yapıştırın:</h3>
 <form target="#" onsubmit="return parseEmails()">
-<textarea id="stringContainsEmail">
+<textarea id="stringContainsEmail" rows="5" cols="50">
 </textarea><br/>
 <button type="submit">Emailleri Dök</button>
 </form>
 <h3>Sonuç:</h3>
 <div id="emailResult" style="border: 1px solid; width: 500px">
 </div>
+<style>
+		textarea {
+			height: auto;
+		}
+	</style>
 <script>
 function getEmailsFromString(input) {
   var ret = [];
@@ -40,4 +50,5 @@ function parseEmails(){
 	return false;
 }
 </script>
+</body>
 </html>
