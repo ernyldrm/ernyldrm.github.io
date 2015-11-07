@@ -10,6 +10,8 @@ Hello everyone,
 In this post I'm going to tell you about how I managed to create my own home media server using new Raspberry Pi 2. 
 It's got 1 GB of RAM and a new Broadcom CPU, so a lot of potential to install a greater workload to the pi. So stay with me.
 
+![Raspberry Pi 2](/public/raspberry-pi-2-angle-100569133-orig.png)
+
 ### My Setup:
 
 - A Raspberry Pi 2
