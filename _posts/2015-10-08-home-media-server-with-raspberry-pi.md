@@ -37,6 +37,8 @@ After deploying your OS and do all the initial configuration, you are ready to m
 But for intensive torrent downloading you will need an HDD. Simply, follow [this tutorial from HTPC Guides](http://www.htpcguides.com/properly-mount-usb-storage-raspberry-pi/)
 to learn how to. You may use your usb powered hdd but it may cause some issues and device may randomly disconnect due to power insufficiency (or may never connect properly)
 
+        sudo nano /etc/fstab
+
 ### There is more to come
 
 I've setup most of the things needed right now but I'm trying test everything out better to serve the best tutorial here. More to come in a few days.
