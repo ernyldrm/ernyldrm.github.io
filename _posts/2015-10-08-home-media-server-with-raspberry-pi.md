@@ -20,6 +20,15 @@ It's got 1 GB of RAM and a new Broadcom CPU, so a lot of potential to install a 
 - An 8GB Micro SD card from SanDisk (Class 10 + UHS-1 Support)
 - A 2.1 amps USB adapter for powering the pi
 
+### Setting Up the Operating System
+
+Raspbian is the Foundation’s official supported operating system. And that's the OS of my choice, because everything is just tailored for the pi. 
+I preferred the "wheezy" distro earlier, because the linux kernel version seemed to be more stable and compatible with the software I will use. 
+But then I realised "jessie" can run all of them. So grab the distribution of your choice from [here](https://www.raspberrypi.org/downloads/raspbian/)
+(you can also download the jessie lite if you dont require most of the software pi provides) and head to this [tutorial]() to install raspbian without 
+a keyboard, mouse or a monitor. In my case I didn't have any of those on hand.
+
+
 ### There is more to come
 
 I've setup most of the things needed right now but I'm trying test everything out better to serve the best tutorial here. More to come in a few days.
