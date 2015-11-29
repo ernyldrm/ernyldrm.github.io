@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to create your home media server using Raspberry Pi 2
+comments: true
 redirect-from: 2015/10/08/home-media-server
 permalink: raspberry-pi-media-server
 ---
