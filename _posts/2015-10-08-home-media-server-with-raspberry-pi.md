@@ -28,8 +28,8 @@ But then I realised "jessie" can run all of them. So grab the distribution of yo
 (you can also download the jessie lite if you dont require most of the software pi provides) and head to this [tutorial](http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables) to install raspbian without 
 a keyboard, mouse or a monitor. In my case I didn't have any of those on hand. 
 
-If you are using a Windows Environment to control Raspberry Pi, you can use PuTTy terminal to ssh into your device. 
-Otherwise if you are on a mac or linux environment you can just open up your terminal and directly ssh into your terminal.
+    If you are using a Windows Environment to control Raspberry Pi, you can use PuTTy terminal to ssh into your device. 
+    Otherwise if you are on a mac or linux environment you can just open up your terminal and directly ssh into your terminal.
 
 ### Mount your HDD automatically on startup
 
@@ -37,7 +37,7 @@ After deploying your OS and do all the initial configuration, you are ready to m
 But for intensive torrent downloading you will need an HDD. Simply, follow [this tutorial from HTPC Guides](http://www.htpcguides.com/properly-mount-usb-storage-raspberry-pi/)
 to learn how to. You may use your usb powered hdd but it may cause some issues and device may randomly disconnect due to power insufficiency (or may never connect properly)
 
-        sudo nano /etc/fstab
+    If your drive is using ntfs, I personally use ntfs-3g to mount it, despite what tutorials says.
 
 ### There is more to come
 
