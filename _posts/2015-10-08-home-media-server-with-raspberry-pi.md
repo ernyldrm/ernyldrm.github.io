@@ -25,7 +25,7 @@ It's got 1 GB of RAM and a new Broadcom CPU, so a lot of potential to install a 
 Raspbian is the Foundation’s official supported operating system. And that's the OS of my choice, because everything is just tailored for the pi. 
 I preferred the "wheezy" distro earlier, because the linux kernel version seemed to be more stable and compatible with the software I will use. 
 But then I realised "jessie" can run all of them. So grab the distribution of your choice from [here](https://www.raspberrypi.org/downloads/raspbian/)
-(you can also download the jessie lite if you dont require most of the software pi provides) and head to this [tutorial]() to install raspbian without 
+(you can also download the jessie lite if you dont require most of the software pi provides) and head to this [tutorial](http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables) to install raspbian without 
 a keyboard, mouse or a monitor. In my case I didn't have any of those on hand.
 
 
