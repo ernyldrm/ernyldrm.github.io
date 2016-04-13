@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create your home media server using Raspberry Pi 2
+title: How to create your home media server using Raspberry Pi 3
 comments: true
 redirect-from: 2015/10/08/home-media-server
 permalink: raspberry-pi-media-server
@@ -8,18 +8,18 @@ permalink: raspberry-pi-media-server
 
 Hello everyone,
 
-In this post I'm going to tell you about how I managed to create my own home media server using new Raspberry Pi 2. 
-It's got 1 GB of RAM and a new Broadcom CPU, so a lot of potential to install a greater workload to the pi. So stay with me.
+In this post I'm going to tell you about how I managed to create my own home media server using new Raspberry Pi 3. 
+It's got 1 GB of RAM and a new Broadcom 64bit CPU, it has a lot more power to handle a greater workload, so stay with me.
 
 ![Raspberry Pi 2](/public/raspberry-pi-2-angle-100569133-orig.png)
 
 ### My Setup:
 
-- A Raspberry Pi 2
+- A Raspberry Pi 3 Model B
 - A 3TB Toshiba Canvio External HDD with NTFS (Powered separately)
     - Powering your HDD from your Pi can cause problems. HDDs need a bit more power than what pi can provide
-- An 8GB Micro SD card from SanDisk (Class 10 + UHS-1 Support)
-- A 2.1 amps USB adapter for powering the pi
+- A 32GB Micro SD card from SanDisk (Class 10 + UHS-1 Support)
+- A 2.0 amps USB adapter for powering the pi
 
 ### Setting Up the Operating System
 
@@ -38,8 +38,14 @@ After deploying your OS and do all the initial configuration, you are ready to m
 But for intensive torrent downloading you will need an HDD. Simply, follow [this tutorial from HTPC Guides](http://www.htpcguides.com/properly-mount-usb-storage-raspberry-pi/)
 to learn how to. You may use your usb powered hdd but it may cause some issues and device may randomly disconnect due to power insufficiency (or may never connect properly)
 
-If your drive is using ntfs, I personally use ntfs-3g to mount it, despite what tutorials says.
+If your drive is using ntfs, I personally use ntfs-3g to mount it, despite what tutorial says.
+
+### Installing Plex Media Server
+
+Luckily the HTPC Guides provided us [another great tutorial](http://www.htpcguides.com/install-plex-media-server-raspberry-pi-3-image/) on how to install Plex Media Server to raspberry pi 3.
+Installing plexmediaserver is very easy but you better check the prerequisites before installing. 
 
 ### There is more to come
 
+Next we will install the torrent client deluge and automate it to download the favorite tv series new episodes for us. 
 I've setup most of the things needed right now but I'm trying test everything out better to serve the best tutorial here. More to come in a few days.
