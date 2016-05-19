@@ -11,9 +11,11 @@ Hello everyone,
 In this post I'm going to tell you about how I managed to create my own home media server using new Raspberry Pi 3. 
 It's got 1 GB of RAM and a new Broadcom 64bit CPU, it has a lot more power to handle a greater workload, so stay with me.
 
-![Raspberry Pi 2](/public/raspberry-pi-2-angle-100569133-orig.png)
+![Raspberry Pi 2](/public/raspi3.png)
 
-### My Setup:
+I've put together several useful tutorials here. It is basically a bookmarks page with some advice.
+
+### My setup:
 
 - A Raspberry Pi 3 Model B
 - A 3TB Toshiba Canvio External HDD with NTFS (Powered separately)
@@ -44,6 +46,8 @@ If your drive is using ntfs, I personally use ntfs-3g to mount it, despite what 
 
 Luckily the HTPC Guides provided us [another great tutorial](http://www.htpcguides.com/install-plex-media-server-raspberry-pi-3-image/) on how to install Plex Media Server to raspberry pi 3.
 Installing plexmediaserver is very easy but you better check the prerequisites before installing. 
+
+### 
 
 ### There is more to come
 
