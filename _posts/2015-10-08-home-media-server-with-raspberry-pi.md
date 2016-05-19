@@ -49,5 +49,3 @@ Installing plexmediaserver is very easy but you better check the prerequisites b
 
 Next we will install the torrent client deluge and automate it to download the favorite tv series new episodes for us. 
 I've setup most of the things needed right now but I'm trying test everything out better to serve the best tutorial here. More to come in a few days.
-
-test
