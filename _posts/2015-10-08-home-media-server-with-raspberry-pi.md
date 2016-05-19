@@ -47,7 +47,6 @@ If your drive is using ntfs, I personally use ntfs-3g to mount it, despite what 
 Luckily the HTPC Guides provided us [another great tutorial](http://www.htpcguides.com/install-plex-media-server-raspberry-pi-3-image/) on how to install Plex Media Server to raspberry pi 3.
 Installing plexmediaserver is very easy but you better check the prerequisites before installing. 
 
-### 
 
 ### There is more to come
 
